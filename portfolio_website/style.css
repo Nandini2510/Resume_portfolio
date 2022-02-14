@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(126, 213, 111, 0.901),
+    rgba(46, 120, 88, 0.7)
+  );
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.navbar {
+  display: flex;
+  gap: 30px;
+  color: white;
+  font-size: 25px;
+}
+.contactbtn {
+  border: 2px solid white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.container {
+  max-width: 80vw;
+  margin: auto;
+  padding: 20px;
+}
+.herosection {
+  display: flex;
+  justify-content: space-around;
+}
+.leftimg {
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+}
+.heroright {
+  color: white;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.cvbtn {
+  max-width: 150px;
+  border: 2px solid white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+  background: transparent;
+}
+.skillstitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+}
+.skills {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 10px 30px;
+}
+.cards {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+  background: #2e7858;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  height: 400px;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.heading {
+  padding: 20px;
+  text-align: center;
+}
